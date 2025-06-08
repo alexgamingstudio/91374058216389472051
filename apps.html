@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>PAPA`S PUB - Apps</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+  body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #1f2937, #4b5563);
+    color: #f9fafb;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  header {
+    padding: 2rem 1rem;
+    text-align: center;
+    background-color: #111827cc;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+  }
+
+  header h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 2.5rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #fbbf24;
+  }
+
+  main {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 3rem 1rem;
+  }
+
+  .app-button {
+    background: #fbbf24;
+    color: #111827;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 1rem 3rem;
+    border-radius: 9999px;
+    box-shadow: 0 4px 14px rgba(251,191,36,0.5);
+    transition: background 0.3s ease, box-shadow 0.3s ease, transform 0.2s ease;
+    width: 280px;
+    text-align: center;
+    user-select: none;
+  }
+
+  .app-button:hover,
+  .app-button:focus {
+    background: #f59e0b;
+    box-shadow: 0 6px 20px rgba(245,158,11,0.8);
+    transform: translateY(-3px);
+    outline: none;
+  }
+
+  footer {
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+    color: #9ca3af;
+    background-color: #111827cc;
+  }
+
+  @media (min-width: 600px) {
+    main {
+      flex-direction: row;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>PAPA`S PUB Apps</h1>
+</header>
+
+<main>
+  <a href="https://app.jotform.com/251576766861370" target="_blank" rel="noopener" class="app-button" aria-label="Darts App öffnen">
+    Darts
+  </a>
+  <a href="https://app.jotform.com/251576165190358" target="_blank" rel="noopener" class="app-button" aria-label="Management App öffnen">
+    Management
+  </a>
+  <a href="https://app.jotform.com/251575974579376" target="_blank" rel="noopener" class="app-button" aria-label="PAPA'S PUB App öffnen">
+    PAPA'S PUB
+  </a>
+</main>
+
+<footer>
+  &copy; 2025 PAPA`S PUB
+</footer>
+
+</body>
+</html>
